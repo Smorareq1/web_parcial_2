@@ -129,9 +129,9 @@ const nombreArchivo = 'libros.json';
 fs.writeFileSync(nombreArchivo, JSON.stringify(libros, null, 2), 'utf-8');
 
 console.log('\n====================================');
-console.log(`✅ ¡Archivo generado exitosamente!`);
-console.log(`📁 Nombre: ${nombreArchivo}`);
-console.log(`📚 Total de libros: ${libros.length}`);
+console.log(`¡Archivo generado exitosamente!`);
+console.log(`Nombre: ${nombreArchivo}`);
+console.log(`Total de libros: ${libros.length}`);
 console.log('====================================\n');
 
 // Mostrar algunos ejemplos
